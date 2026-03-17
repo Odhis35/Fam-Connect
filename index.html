@@ -7,6 +7,30 @@
     <link rel="Stylesheet" type="text/css" href="famapp.css">
 </head>
 <body>
+    <div class="container">
+        <div id="login-section">
+            <h1>Family Connect</h1>
+            <p>Stay Connected with your family</p>
+            <input type="text" id="name-input" placeholder="Enter Your Name">
+            <button id="enter-Btn">Enter</button>
+        </div>
+
+        <div id="app-section" style="display: none;">
+            <h2 id="welcome-text"></h2>
+            <h3>Family Members</h3>
+            <ul id="family-list"></ul>
+
+            <h3>Appreciation Wall</h3>
+            <input type="text" id="message-input" placeholder="Write Appreciation...">
+            <button id="send-btn">Send Message</button>
+            <ul id="message-list"></ul>
+
+            <h3>Family Events</h3>
+            <input type="text" id="add-event" placeholder="Add an event...">
+            <button id="add-eventBtn">Add</button>
+            <ul id="event-list"></ul>
+        </div>
+    </div>
     <script src="famapp.jss"></script>
     
 </body>
